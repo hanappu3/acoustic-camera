@@ -1,5 +1,3 @@
-# acoustic-camera
-8ch MEMSマイク×STM32H7で超音波を可視化する自作音響カメラ（90日の記録）
 # Acoustic Camera（自作音響カメラ）
 
 8個のMEMSマイクとSTM32で、人の耳に聞こえない超音波（エア漏れの音など）を
