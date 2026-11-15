@@ -43,7 +43,7 @@ CSV_FILE = None      # set a saved CSV name (in results/) to re-analyze / 解析
 
 # Save results next to this script, regardless of the terminal's current folder.
 # ターミナルがどのフォルダにいても、このスクリプトと同じ場所の results フォルダに保存する
-OUT_DIR = Path(__file__).resolve().parent / "results"
+OUT_DIR = Path(__file__).resolve().parent.parent / "results"   # repo root / リポジトリ直下の results
 OUT_DIR.mkdir(exist_ok=True)
 
 
